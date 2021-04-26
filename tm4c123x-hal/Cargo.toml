@@ -29,7 +29,8 @@ features = ["unproven"]
 version = "1"
 
 [dependencies.tm4c123x]
-version = "0.9"
+git = "https://github.com/rust-embedded-community/tm4c-rs.git"
+#version = "0.9"
 
 [dependencies.void]
 version = "1.0"
